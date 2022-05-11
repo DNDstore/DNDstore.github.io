@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+<head></head>
+<html>
+<body>
+<style> body {
+          background-color: rgb(234,242,7);
+          }
+</style>
+  
+<h1>Quiz</h1>
+   
+ <p>entre ton nom d'utilisateur </p>
+  <label for="username">nom d'utillisateur:</label>
+  <input type="text" id="username" name="username">
+  
+<form onsubmit="check();" name=form_language>
+  <p> Quelle langue est utilisée pour styliser et mettre en page les pages Web ?:</p> 
+<input type= "radio" id="python" name="quelle_langue"
+value="python">
+  <label for="python">Python</label><br>
+<input type="radio" id="html" name="quelle_langue" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type= "radio" id="C+" name="quelle_langue"
+value="C+">
+  <label for="C+">C+</label><br>
+<input type="radio" id="css" name="quelle_langue" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="quelle_langue" value="JavaScript">
+  <label for="javascript">JavaScript</label> 
+  
+  
+  <br>  
+
+  <p>à quoi sert javascript ? :</p>
+  <input type="checkbox" id="reponse1" name="question1" value="1">
+  <label for="reponse1">Javascript est utilisé pour structurer une page Web et son contenu</label><br>
+  <input type="checkbox" id="reponse2" name="question1" value="2">
+  <label for="reponse2">Javascript est utilisé pour acheter des nouvelles maisons </label><br> 
+  <input type="checkbox" id="reponse3" name="question1" value="3">
+  <label for="reponse3">JavaScript est principalement utilisé pour les applications Web et les navigateurs Web.</label><br><br>
+  <input type="checkbox" id="reponse4" name="question1" value="4">
+  <label for="reponse4">Javascript est utilisé pour créer plus d'espace dans votre navigateur</label><br><br>
+  <input type="checkbox" id="reponse5" name="question1" value="5">
+  <label for="age3">Javascript est utilisé pour créer une plateforme facile à télécharger</label><br><br>
+
+  <script src="script.js"></script>
+  
+  <input type="submit" value="Submit" >
+</form>
+
+     <script src="quiz.js"></script>
+     <br><a href="index.html">Index</a></br>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <!-- formulair d'inscription -->
+    <head>
+ <style>
+       body {
+          background-color: rgb(245,78,66);
+          }
+      </style>
+      </head>
+    
+    <form id="formEntree">
+      <label for="prenomId">Prenom:</label>
+      <input type="text" id="prenomId"><br>
+      <label for="nommillieuId">Nom de millieu:</label>
+      <input type="text" id="nommillieuId"><br>
+      <label for="nomFamilleId">Nom de famille:</label>
+      <input type="text" id="nomFamilleId"><br>
+    </form>
+
+    <form id="formAffichier">
+      <!--<input type="button" value="prenom" onclick="affichePrenom()">-->
+      <!--<input type="button" value="nom millieu" onclick="afficheMillieu()">-->
+      <!--<input type="button" value="nom famille" onclick="afficheFamille()">-->
+      <input type="button" value="nom complet" onclick="affiche('nc')">
+      <input type="button" value="initials" onclick="affiche('ini')">
+      <input type="button" value="utilisateur" onclick="affiche('user')">
+    </form>
+
+    <script src="scripts/forms.js"></script>
+     <br><a href="index.html">Index</a></br>
+  </body>
+</html>
